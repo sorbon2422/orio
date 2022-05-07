@@ -8,6 +8,10 @@
 
 
  /* style */
+ *{
+     margin: 0;
+     padding: 0;
+ }
  .bg-orio {
     background-color: #FFD400;
 }
@@ -158,7 +162,7 @@
 
  /* Header */
  header {
-     font-size: 120%;
+     font-size: 100%;
  }
 
  #navbarNavDropdown .active{
