@@ -505,9 +505,13 @@
 #otzivi .pattern img {
     z-index: -1;
     position: absolute;
-    height: 87%;
-    opacity: 0.6;
-
+    width: 30%;
+    opacity: 0.5;
+}
+@media (max-width:800px) {
+    #otzivi .pattern img{
+        width: 60%;
+    }
 }
 .img-about{
     width: 40% !important;
