@@ -52,6 +52,7 @@
         oborudovanieSlide.owlCarousel({
             items: 4,
             margin: 50,
+            autoHeight:true,
             loop: true,
             nav: true,
             navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
