@@ -52,7 +52,6 @@
         oborudovanieSlide.owlCarousel({
             items: 4,
             margin: 50,
-            autoHeight:true,
             loop: true,
             nav: true,
             navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
@@ -87,3 +86,21 @@ if ($.fn.counterUp) {
         time: 1500
     });
 }
+
+// ***********************************
+// Scroll
+//
+
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    };
+
+    $(document).on("scroll", function(){
+      if($(window).scrollTop()===0)
+        $("nav").removeAttr("id","bg-header");
+      else
+        $("nav").attr("id","bg-header");
+    });
+  

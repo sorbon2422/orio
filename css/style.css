@@ -571,3 +571,11 @@
     width: 31px;
     border: 2px solid white;
 }
+.hr-footer{
+    visibility: hidden;
+}
+@media (max-width:990px) {
+    .hr-footer{
+        visibility: visible;
+    }
+}
