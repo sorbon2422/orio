@@ -276,6 +276,20 @@
      z-index: -10;
  }
 
+ #about .img-about{
+     width: 40% ;
+     height: 370px ;
+     object-fit: contain;
+     margin-bottom: 10px;
+     margin-left: 10px;
+ }
+ @media (max-width:450px){
+    #about .img-about{
+        width:100%;
+        max-width: 100%;
+        margin: 0;
+    }
+ }
  /* Uslugi */
  .uslugi-icon {
      width: 35%;
@@ -528,10 +542,6 @@
         width: 60%;
     }
 }
-.img-about{
-    width: 40% !important;
-}
-
 /* news */
 
 .news-content{
