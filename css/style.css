@@ -8,156 +8,159 @@
 
 
  /* style */
- *{
+ * {
      margin: 0;
      padding: 0;
  }
+
  .bg-orio {
-    background-color: #FFD400;
-}
+     background-color: #FFD400;
+ }
 
-.color-orio {
-    color: #FFD400;
-}
+ .color-orio {
+     color: #FFD400;
+ }
 
-.fs-head {
-    font-size: 50px; ;
-}
+ .fs-head {
+     font-size: 50px;
+     ;
+ }
 
-*{
-    font-family: 'Lato', sans-serif;
-}
+ * {
+     font-family: 'Lato', sans-serif;
+ }
 
-@media (max-width:600px){
-    .fs-head {
-        font-size: 40px; ;
-    }
-}
+ @media (max-width:600px) {
+     .fs-head {
+         font-size: 40px;
+         ;
+     }
+ }
 
-/* Preload */
+ /* Preload */
 
-#preloader {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 99999;
-    top: 0;
-    left: 0;
-    background-color: #FFD400;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  
-  .wrapper {
-    margin: auto;
-    display: block;
-  }
-  
-  .cssload-loader {
-    width: 49px;
-    height: 49px;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    background: #ffffff;
-  }
-  
-  .cssload-loader,
-  .cssload-loader:after,
-  .cssload-loader:before {
-    animation: 1.15s infinite ease-in-out;
-    -o-animation: 1.15s infinite ease-in-out;
-    -ms-animation: 1.15s infinite ease-in-out;
-    -webkit-animation: 1.15s infinite ease-in-out;
-    -moz-animation: 1.15s infinite ease-in-out;
-  }
-  
-  .cssload-loader:after,
-  .cssload-loader:before {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .cssload-loader {
-    animation-name: cssload-loader;
-    -o-animation-name: cssload-loader;
-    -ms-animation-name: cssload-loader;
-    -webkit-animation-name: cssload-loader;
-    -moz-animation-name: cssload-loader;
-  }
-  
-  @keyframes cssload-loader {
-    from {
-      transform: scale(0);
-      opacity: 1;
-    }
-  
-    to {
-      transform: scale(1);
-      opacity: 0;
-    }
-  }
-  
-  @-o-keyframes cssload-loader {
-    from {
-      -o-transform: scale(0);
-      opacity: 1;
-    }
-  
-    to {
-      -o-transform: scale(1);
-      opacity: 0;
-    }
-  }
-  
-  @-ms-keyframes cssload-loader {
-    from {
-      -ms-transform: scale(0);
-      opacity: 1;
-    }
-  
-    to {
-      -ms-transform: scale(1);
-      opacity: 0;
-    }
-  }
-  
-  @-webkit-keyframes cssload-loader {
-    from {
-      -webkit-transform: scale(0);
-      opacity: 1;
-    }
-  
-    to {
-      -webkit-transform: scale(1);
-      opacity: 0;
-    }
-  }
-  
-  @-moz-keyframes cssload-loader {
-    from {
-      -moz-transform: scale(0);
-      opacity: 1;
-    }
-  
-    to {
-      -moz-transform: scale(1);
-      opacity: 0;
-    }
-  }
-  
+ #preloader {
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     z-index: 99999;
+     top: 0;
+     left: 0;
+     background-color: #FFD400;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+ }
+
+ .wrapper {
+     margin: auto;
+     display: block;
+ }
+
+ .cssload-loader {
+     width: 49px;
+     height: 49px;
+     border-radius: 50%;
+     display: inline-block;
+     position: relative;
+     vertical-align: middle;
+     background: #ffffff;
+ }
+
+ .cssload-loader,
+ .cssload-loader:after,
+ .cssload-loader:before {
+     animation: 1.15s infinite ease-in-out;
+     -o-animation: 1.15s infinite ease-in-out;
+     -ms-animation: 1.15s infinite ease-in-out;
+     -webkit-animation: 1.15s infinite ease-in-out;
+     -moz-animation: 1.15s infinite ease-in-out;
+ }
+
+ .cssload-loader:after,
+ .cssload-loader:before {
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+
+ .cssload-loader {
+     animation-name: cssload-loader;
+     -o-animation-name: cssload-loader;
+     -ms-animation-name: cssload-loader;
+     -webkit-animation-name: cssload-loader;
+     -moz-animation-name: cssload-loader;
+ }
+
+ @keyframes cssload-loader {
+     from {
+         transform: scale(0);
+         opacity: 1;
+     }
+
+     to {
+         transform: scale(1);
+         opacity: 0;
+     }
+ }
+
+ @-o-keyframes cssload-loader {
+     from {
+         -o-transform: scale(0);
+         opacity: 1;
+     }
+
+     to {
+         -o-transform: scale(1);
+         opacity: 0;
+     }
+ }
+
+ @-ms-keyframes cssload-loader {
+     from {
+         -ms-transform: scale(0);
+         opacity: 1;
+     }
+
+     to {
+         -ms-transform: scale(1);
+         opacity: 0;
+     }
+ }
+
+ @-webkit-keyframes cssload-loader {
+     from {
+         -webkit-transform: scale(0);
+         opacity: 1;
+     }
+
+     to {
+         -webkit-transform: scale(1);
+         opacity: 0;
+     }
+ }
+
+ @-moz-keyframes cssload-loader {
+     from {
+         -moz-transform: scale(0);
+         opacity: 1;
+     }
+
+     to {
+         -moz-transform: scale(1);
+         opacity: 0;
+     }
+ }
+
 
 
  /* Header */
@@ -165,27 +168,33 @@
      font-size: 100%;
  }
 
- #navbarNavDropdown .active{
-     border-bottom: 4px solid white ;
+ #navbarNavDropdown .active {
+     border-bottom: 4px solid white;
 
  }
- #navbarNavDropdown .nav-link{
-    color: rgba(0,0,0,.9);
+
+ #navbarNavDropdown .nav-link {
+     color: rgba(0, 0, 0, .9);
      padding: 0;
      line-height: 1.1;
      margin: 4px;
  }
-.navbar{
-    background-color: rgba(255, 213, 0, 0.7);
-    backdrop-filter: blur(10px);
-}
+
+ .navbar {
+     background-color: rgba(255, 213, 0, 0.7);
+     backdrop-filter: blur(10px);
+ }
+
  #header-logo-orio {
      height: 70px;
      padding: 0;
      margin: 0;
  }
+
  @media (max-width:767px) {
-    #header-logo-orio {height: 50px;}
+     #header-logo-orio {
+         height: 50px;
+     }
  }
 
  .dropdown:hover .dropdown-menu {
@@ -204,7 +213,8 @@
      transition: all 0.8s;
  }
 
- .dropdown .dropdown-menu .dropdown-item:hover,.dropdown-item:focus {
+ .dropdown .dropdown-menu .dropdown-item:hover,
+ .dropdown-item:focus {
      color: #FFD400;
      background-color: transparent;
      padding-left: 23px;
@@ -246,15 +256,18 @@
      border: black 2px solid;
      background-color: transparent;
  }
-@media (max-width:767px) {
-    .carousel-indicators [data-bs-target] {
-        height: 5px;
-        width: 5px;
-    }
-    #start-slide{
-        padding-top: 50px !important;
-    }
-}
+
+ @media (max-width:767px) {
+     .carousel-indicators [data-bs-target] {
+         height: 5px;
+         width: 5px;
+     }
+
+     #start-slide {
+         padding-top: 50px !important;
+     }
+ }
+
  .carousel-indicators {
      margin-bottom: 0.5rem;
  }
@@ -276,20 +289,22 @@
      z-index: -10;
  }
 
- #about .img-about{
-     width: 40% ;
-     height: 370px ;
+ #about .img-about {
+     width: 40%;
+     height: 370px;
      object-fit: contain;
      margin-bottom: 10px;
      margin-left: 10px;
  }
- @media (max-width:450px){
-    #about .img-about{
-        width:100%;
-        max-width: 100%;
-        margin: 0;
-    }
+
+ @media (max-width:450px) {
+     #about .img-about {
+         width: 100%;
+         max-width: 100%;
+         margin: 0;
+     }
  }
+
  /* Uslugi */
  .uslugi-icon {
      width: 35%;
@@ -345,6 +360,7 @@
      opacity: 0;
      visibility: hidden;
  }
+
  .single-portfolio-slide:focus,
  .single-portfolio-slide:hover {
      -webkit-box-shadow: 0 6px 50px 8px rgba(243, 198, 18, 0.15);
@@ -402,214 +418,253 @@
      position: relative;
      z-index: 1;
  }
+
  .single-portfolio-item .single-portfolio-slide {
      margin-right: 10px;
      margin-left: 10px;
  }
 
 
-/* Oborudovanie */
+ /* Oborudovanie */
 
 
-.obor-slide{
-    position: relative;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-.oborudovanie-sildes .owl-nav{
-    overflow: hidden;
-    height: 0px;
-  }
-.owl-carousel .item {
-    text-align: center;
-    }
-.oborudovanie-sildes .nav-btn{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    top: 130px !important;
-}
-.oborudovanie-item{
-    height: 300px !important;
-}
-.oborudovanie-item:hover{
-    box-shadow: 0 2rem 2rem rgba(243, 198, 18, 0.4) ;
-    border: 3px solid rgb(243, 198, 18) !important;
-}
-.oborudovanie-item img{
-    width: 65% !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-.oborudovanie-sildes .prev-slide{
-    background: url('../img/obo_right.png') 0 0/100% 100% no-repeat ;
-    left: -40px;
-}
-.oborudovanie-sildes .next-slide{
-    background: url('../img/obo_left.png') 0 0/100% 100% no-repeat;
-    right: -40px;
-   
-}
-.oborudovanie-sildes .nav-btn:hover{
-    height: 35px;
-    width: 35px;
+ .obor-slide {
+     position: relative;
+     padding-left: 40px;
+     padding-right: 40px;
  }
 
-/* Preimushestva */
-.prem-icon {  
-    height:  150px;
-    width: 150px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
-    background-blend-mode: darken;
-}
-@media (max-width:767px) {
-    .prem-icon {  
-        height:  80px;
-        width: 80px !important;}
-}
+ .oborudovanie-sildes .owl-nav {
+     overflow: hidden;
+     height: 0px;
+ }
 
-.four-icon{
-    background-image: url('../img/preimushestva/four.png') ;
-}
-.client-icon{
-    background-image: url('../img/preimushestva/client.png') ;
-}
-.opit-icon{
-    background-image: url('../img/preimushestva/opit.png') ;
-}
-.kluch-icon{
-    background-image: url('../img/preimushestva/kluch.png') ;
-}
-@media (max-width:767px){
-    .block-a h2{
-        font-size: 16px !important;
-        padding-top: 0 !important;
-        padding-bottom: 0px !important;
-    }
-    .block-a div{
-        padding-top: 0px !important;
-    }
-}
-.row-block-b h2{
-    font-size: 60px;
-}
-.row-block-b p{
-    font-size: 100%;
-    font-weight: 500;
-    line-height:25px;
-    max-width: 8vw;
-}
-@media (max-width:990px){
-    .row-block-b p{
-        max-width: 100%;
-        text-align: center;
-    }
-    
-}
-.row-block-b image{
-    width: 100%;
-}
-.row-block-b div{
-    padding-left: 0px;
-    padding-right: 2px;
-}
+ .owl-carousel .item {
+     text-align: center;
+ }
 
-/* otziv */
+ .oborudovanie-sildes .nav-btn {
+     position: absolute;
+     height: 40px;
+     width: 40px;
+     cursor: pointer;
+     top: 130px !important;
+ }
 
-.avatar-otziv{
-    width: 80%;
-    
-}
-@media (max-width:990px){
-    .avatar-otziv{
-        width: 50%;
-    }
-}
-#otzivi .pattern img {
-    z-index: -1;
-    position: absolute;
-    width: 30%;
-    opacity: 0.5;
-}
-@media (max-width:800px) {
-    #otzivi .pattern img{
-        width: 60%;
-    }
-}
-/* news */
+ .oborudovanie-item {
+     height: 300px !important;
+ }
 
-.news-content{
-    padding: 40px;
-    height: 100%;
-    transition: all 0.5s;
-}
-.news-date{
-    display: block;
-}
-.news-content:hover{
-    box-shadow: 0 1rem 2rem rgba(243, 198, 18, 0.4) ;
-}
-.news-content h3:hover{
-    color:#f3c612 ;
-}
+ .oborudovanie-item:hover {
+     box-shadow: 0 2rem 2rem rgba(243, 198, 18, 0.4);
+     border: 3px solid rgb(243, 198, 18) !important;
+ }
 
-/* Contact */
+ .oborudovanie-item img {
+     width: 65% !important;
+     margin-left: auto;
+     margin-right: auto;
+ }
 
-#contact_tg input,#contact_tg textarea {
-    border-color: #ffd400 !important;
-}
-#contact_tg input:focus,#contact_tg  textarea:focus{
-    box-shadow: 0 0 0 0.25rem #f3c61266 !important;
-}
-#contact_tg  textarea {
-    border-radius: 20px !important;
-    height: 250px;
-}
-@media (max-width:767px) {
-    #contact_tg  textarea{
-        height: 150px;
-    }
-}
-    
-.karta{
-    border-radius: 20px;
-    border: 1px solid #FFD400 !important;
-    padding: 10px !important;
-}
+ .oborudovanie-sildes .prev-slide {
+     background: url('../img/obo_right.png') 0 0/100% 100% no-repeat;
+     left: -40px;
+ }
 
-/* Footer */
-.navigator-link a, #footer .tel{
-    transition: all 0.7s;
-}
-.navigator-link a:hover{
- padding-left: 5px;
- font-size: 150% !important;
-}
-#footer .tel:hover{
-    font-size: 180% !important;
-}
+ .oborudovanie-sildes .next-slide {
+     background: url('../img/obo_left.png') 0 0/100% 100% no-repeat;
+     right: -40px;
 
-.footer-social-info img{
-    width: 35px;
-    margin-right: 5px;
-    border-radius: 50%;
-}
+ }
 
-.footer-social-info img:hover{
-    width: 31px;
-    border: 2px solid white;
-}
-.hr-footer{
-    visibility: hidden;
-}
-@media (max-width:990px) {
-    .hr-footer{
-        visibility: visible;
-    }
-}
+ .oborudovanie-sildes .nav-btn:hover {
+     height: 35px;
+     width: 35px;
+ }
+
+ /* Preimushestva */
+ .prem-icon {
+     height: 150px;
+     width: 150px !important;
+     margin-left: auto !important;
+     margin-right: auto !important;
+     border-radius: 50%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 70%;
+     background-blend-mode: darken;
+ }
+
+ @media (max-width:767px) {
+     .prem-icon {
+         height: 80px;
+         width: 80px !important;
+     }
+ }
+
+ .four-icon {
+     background-image: url('../img/preimushestva/four.png');
+ }
+
+ .client-icon {
+     background-image: url('../img/preimushestva/client.png');
+ }
+
+ .opit-icon {
+     background-image: url('../img/preimushestva/opit.png');
+ }
+
+ .kluch-icon {
+     background-image: url('../img/preimushestva/kluch.png');
+ }
+
+ @media (max-width:767px) {
+     .block-a h2 {
+         font-size: 16px !important;
+         padding-top: 0 !important;
+         padding-bottom: 0px !important;
+     }
+
+     .block-a div {
+         padding-top: 0px !important;
+     }
+ }
+
+ .row-block-b h2 {
+     font-size: 60px;
+ }
+
+ .row-block-b p {
+     font-size: 100%;
+     font-weight: 500;
+     line-height: 25px;
+     max-width: 8vw;
+ }
+
+ @media (max-width:990px) {
+     .row-block-b p {
+         max-width: 100%;
+         text-align: center;
+     }
+
+ }
+
+ .row-block-b image {
+     width: 100%;
+ }
+
+ .row-block-b div {
+     padding-left: 0px;
+     padding-right: 2px;
+ }
+
+ /* otziv */
+
+ .avatar-otziv {
+     width: 80%;
+
+ }
+
+ @media (max-width:990px) {
+     .avatar-otziv {
+         width: 50%;
+     }
+ }
+
+ #otzivi .pattern img {
+     z-index: -1;
+     position: absolute;
+     width: 30%;
+     opacity: 0.5;
+ }
+
+ @media (max-width:800px) {
+     #otzivi .pattern img {
+         width: 60%;
+     }
+ }
+
+ /* news */
+
+ .news-content {
+     padding: 40px;
+     height: 100%;
+     transition: all 0.5s;
+ }
+
+ .news-date {
+     display: block;
+ }
+
+ .news-content:hover {
+     box-shadow: 0 1rem 2rem rgba(243, 198, 18, 0.4);
+ }
+
+ .news-content h3:hover {
+     color: #f3c612;
+ }
+
+ /* Contact */
+
+ #contact_tg input,
+ #contact_tg textarea {
+     border-color: #ffd400 !important;
+ }
+
+ #contact_tg input:focus,
+ #contact_tg textarea:focus {
+     box-shadow: 0 0 0 0.25rem #f3c61266 !important;
+ }
+
+ #contact_tg textarea {
+     border-radius: 20px !important;
+     height: 250px;
+ }
+
+ @media (max-width:767px) {
+     #contact_tg textarea {
+         height: 150px !important;
+     }
+ }
+
+ .karta {
+     border-radius: 20px;
+     border: 1px solid #FFD400 !important;
+     padding: 10px !important;
+ }
+
+ /* Footer */
+ .navigator-link a,
+ #footer .tel {
+     transition: all 0.7s;
+ }
+
+ .navigator-link a:hover {
+     padding-left: 5px;
+     font-size: 150% !important;
+ }
+
+ #footer .tel:hover {
+     font-size: 180% !important;
+ }
+
+ .footer-social-info img {
+     width: 35px;
+     margin-right: 5px;
+     border-radius: 50%;
+ }
+
+ .footer-social-info img:hover {
+     width: 31px;
+     border: 2px solid white;
+ }
+
+ .hr-footer {
+     visibility: hidden;
+ }
+
+ @media (max-width:990px) {
+     .hr-footer {
+         visibility: visible;
+     }
+ }
