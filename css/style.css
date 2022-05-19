@@ -317,6 +317,35 @@
      width: 80%;
  }
 
+ #uslugi #accordionFlushExample img{
+     width: 35px;
+ }
+ #uslugi #accordionFlushExample button:focus, .accordion-button:not(.collapsed){
+    box-shadow: 0 0 0 0.25rem #f3c61266 !important;
+    background: #f3c61238 !important;
+    color: black !important;
+ }
+ .accordion-button:not(.collapsed)::after{
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+ }
+ #accordionFlushExample  button, #accordionFlushExample .accordion-item{
+    border-radius: 15px 15px 0  0;
+ }
+ #accordionFlushExample .show{
+     border-radius: 0  0 15px 15px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+ }
+ #accordionFlushExample .accordion-item{
+     border: none;
+ }
+ 
+ #uslugi .pattern img {
+    position: absolute;
+    height: 70%;
+    right: 0;
+    z-index: -10;
+}
+
  /* obekti */
  .obekti {
      position: relative;
