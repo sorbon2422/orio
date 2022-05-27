@@ -537,11 +537,13 @@
  #btn-zayavka:focus {
      box-shadow: 0 0 0 0.25rem rgb(243, 198, 18, 0.815);
  }
- #opsaniya_oborud{
+ #opsaniya_oborud>div{
      border-color: #FFD400 !important;
      margin-top: 10vw !important;
      outline: 3px solid #FFD400;
+     --bs-gutter-x: 0 !important;
  }
+
  #v-pills-tab button{
      border-radius: 0px;
      background-color: white;
