@@ -45,7 +45,7 @@
     }
 
     // ***********************************
-    // Oborudovanie slide
+    // Oborudovanie slide Home
     // ***********************************
     if ($.fn.owlCarousel) {
         var oborudovanieSlide = $('.oborudovanie-sildes');
@@ -70,6 +70,34 @@
                 },
                 1400: {
                     items: 3
+                }
+            }
+        });
+    }
+
+// ***********************************
+// Oborudovanie slide PAge
+// ***********************************
+    if ($.fn.owlCarousel) {
+        var oborudovanieSlidepage = $('.oborudovanie-sildes-page');
+        oborudovanieSlidepage.owlCarousel({
+            items: 4,
+            margin: 50,
+            loop: true,
+            nav: true,
+            navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+            autoplay: true,
+            smartSpeed: 1500,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 2
+                },
+                992: {
+                    items: 4
                 }
             }
         });

@@ -298,6 +298,9 @@
  }
 
  @media (max-width:450px) {
+    #about .pattern img {
+        opacity: .25;
+    }
      #about .img-about {
          width: 100%;
          max-width: 100%;
@@ -317,34 +320,41 @@
      width: 80%;
  }
 
- #uslugi #accordionFlushExample img{
+ #uslugi #accordionFlushExample img {
      width: 35px;
  }
- #uslugi #accordionFlushExample button:focus, .accordion-button:not(.collapsed){
-    box-shadow: 0 0 0 0.25rem #f3c61266 !important;
-    background: #f3c61238 !important;
-    color: black !important;
+
+ #uslugi #accordionFlushExample button:focus,
+ .accordion-button:not(.collapsed) {
+     box-shadow: 0 0 0 0.25rem #f3c61266 !important;
+     background: #f3c61238 !important;
+     color: black !important;
  }
- .accordion-button:not(.collapsed)::after{
+
+ .accordion-button:not(.collapsed)::after {
      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
  }
- #accordionFlushExample  button, #accordionFlushExample .accordion-item{
-    border-radius: 15px 15px 0  0;
+
+ #accordionFlushExample button,
+ #accordionFlushExample .accordion-item {
+     border-radius: 15px 15px 0 0;
  }
- #accordionFlushExample .show{
-     border-radius: 0  0 15px 15px;
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+
+ #accordionFlushExample .show {
+     border-radius: 0 0 15px 15px;
+     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
  }
- #accordionFlushExample .accordion-item{
+
+ #accordionFlushExample .accordion-item {
      border: none;
  }
- 
+
  #uslugi .pattern img {
-    position: absolute;
-    height: 70%;
-    right: 0;
-    z-index: -10;
-}
+     position: absolute;
+     height: 70%;
+     right: 0;
+     z-index: -10;
+ }
 
  /* obekti */
  .obekti {
@@ -472,13 +482,7 @@
      text-align: center;
  }
 
- .oborudovanie-sildes .nav-btn {
-     position: absolute;
-     height: 40px;
-     width: 40px;
-     cursor: pointer;
-     top: 130px !important;
- }
+
 
  .oborudovanie-item {
      height: 300px !important;
@@ -495,23 +499,59 @@
      margin-right: auto;
  }
 
- .oborudovanie-sildes .prev-slide {
+ .obor-slide .nav-btn {
+     position: absolute;
+     height: 40px;
+     width: 40px;
+     cursor: pointer;
+     top: 130px !important;
+ }
+
+ .obor-slide .prev-slide {
      background: url('../img/obo_right.png') 0 0/100% 100% no-repeat;
      left: -40px;
  }
 
- .oborudovanie-sildes .next-slide {
+ .obor-slide .next-slide {
      background: url('../img/obo_left.png') 0 0/100% 100% no-repeat;
      right: -40px;
 
  }
 
- .oborudovanie-sildes .nav-btn:hover {
+ .obor-slide .nav-btn:hover {
      height: 35px;
      width: 35px;
  }
 
+ /* page-oborudovannie */
+ .oborudovanie-sildes-page .oborudovanie-item {
+     height: 270px !important;
+ }
+
+ #oborudovanie-page hr {
+     height: 5px;
+     opacity: 1;
+ }
+
+ #btn-zayavka:hover,
+ #btn-zayavka:focus {
+     box-shadow: 0 0 0 0.25rem rgb(243, 198, 18, 0.815);
+ }
+ #opsaniya_oborud{
+     border-color: #FFD400 !important;
+     margin-top: 10vw !important;
+ }
+ #v-pills-tab button{
+     border-radius: 0px;
+     background-color: white;
+     color: black;
+ }
+ #v-pills-tab button.active{
+        background-color: #FFD400;
+ }
+ /* ***** */
  /* Preimushestva */
+ /* ***** */
  .prem-icon {
      height: 150px;
      width: 150px !important;
