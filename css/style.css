@@ -540,11 +540,14 @@
  #opsaniya_oborud{
      border-color: #FFD400 !important;
      margin-top: 10vw !important;
+     outline: 3px solid #FFD400;
  }
  #v-pills-tab button{
      border-radius: 0px;
      background-color: white;
      color: black;
+     margin: 0 !important;
+     border: none !important;
  }
  #v-pills-tab button.active{
         background-color: #FFD400;
