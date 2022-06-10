@@ -509,9 +509,19 @@
  }
  #obekti-B .product .itemBox img:hover{
     box-shadow: 1px 3px 5px rgba(255, 213, 0, 0.5); 
-    
+    opacity: 0.7;
  }
-
+ #obekti-B .itemBox a:hover{
+     background: #FFD400;
+     display: flex;
+     height: 100%;
+     width: 100%;
+ }
+ #previous-button.baguetteBox-button,
+ #next-button.baguetteBox-button
+ {
+     display:none ;
+ }
  /* Oborudovanie */
 
 
