@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ORIO engineering</title>
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/mystyle.css">
 </head>
 
 <body>
@@ -17,10 +19,10 @@
     </div>
   </div>
   <!-- Header -->
-  <header>
+  <header >
     <nav class="navbar navbar-expand-lg navbar-light p-0 m-0 fixed-top">
       <div class="container">
-        <a class="navbar-brand p-0 m-0" href="./"><img src="./img/logo_orio.png" alt="logo Orio"
+        <a class="navbar-brand p-0 m-0" href="../"><img src="../img/logo_orio.png" alt="logo Orio"
             id="header-logo-orio"></a>
 
 
@@ -34,7 +36,7 @@
               <a class="nav-link active" aria-current="page" href="./">Главное</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="./uslugi/">Наши услуги</a>
+              <a class="nav-link" aria-current="page" href="./uslugi/">Наши услуги</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -44,10 +46,8 @@
                       d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                   </svg></span></a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item text-wrap" href="./obekti/">Реализованные
-                    объекты</a></li>
-                <li><a class="dropdown-item text-wrap" href="./obekti/">Фото
-                    оборудования на объектах</a></li>
+                <li><a class="dropdown-item text-wrap" href="./obekti/">Реализованные объекты</a></li>
+                <li><a class="dropdown-item text-wrap" href="./obekti/">Фото оборудования на объектах</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -146,6 +146,7 @@
   </section>
   <!-- Uslugi -->
   <section id="uslugi">
+    <a href="./uslugi/" class="text-reset text-decoration-none">
     <div class="container">
       <h1 class="color-orio py-3 pt-lg-5 fs-head">Услуги</h1>
       <div class="row justify-content-center">
@@ -193,6 +194,8 @@
         </div>
       </div>
     </div>
+  </a>
+    
   </section>
   <!-- obekti -->
   <section id="obekti">
@@ -204,40 +207,28 @@
         <div class="portfolio-sildes owl-carousel">
 
           <div class="single-portfolio-slide">
-            <img src="./img/obekti/abr-textile.jpg" alt="">
+            <img src="./img/obekti/abr_textile/abr_textil.png" alt="">
             <div class="overlay-effect">
-              <img src="./img/obekti/Abr-textile-2.jpg" alt="">
+              <img src="./img/obekti/abr_textile/3.jpg" alt="">
             </div>
           </div>
           <div class="single-portfolio-slide">
-            <img src="./img/obekti/object3.png" alt="">
+            <img src="./img/obekti/kazokon/1.jpg" alt="">
             <div class="overlay-effect">
-              <img src="./img/obekti/object4.png" alt="">
+              <img src="./img/obekti/kazokon/10.jpg" alt="">
             </div>
           </div>
           <div class="single-portfolio-slide">
-            <img src="./img/obekti/Abr-textile-2.jpg" alt="">
+            <img src="./img/obekti/sadbarg/sadbarg.png" alt="">
             <div class="overlay-effect">
-              <img src="./img/obekti/object5.jpg" alt="">
+              <img src="./img/obekti/sadbarg/1.jpg" alt="">
             </div>
           </div>
           <div class="single-portfolio-slide">
-            <img src="./img/obekti/object4.png" alt="">
+            <img src="./img/obekti/abr_textile/7.jpg" alt="">
             <div
               class="overlay-effect                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ">
-              <img src="./img/obekti/object6.jpg" alt="">
-            </div>
-          </div>
-          <div class="single-portfolio-slide">
-            <img src="./img/obekti/object5.jpg" alt="">
-            <div class="overlay-effect">
-              <img src="./img/obekti/object3.png" alt="">
-            </div>
-          </div>
-          <div class="single-portfolio-slide">
-            <img src="./img/obekti/object6.jpg" alt="">
-            <div class="overlay-effect">
-              <img src="./img/obekti/object3.png" alt="">
+              <img src="./img/obekti/abr_textile/8.jpg" alt="">
             </div>
           </div>
 
@@ -256,24 +247,32 @@
         <div class="row">
           <div class="oborudovanie-sildes owl-carousel">
             <div class="oborudovanie-item border mx-4 mx-lg-1 p-2">
-              <img src="./img/Oborudovanie/RAd-300.png" alt="">
+              <a href="./oborudovanie/" class="text-reset text-decoration-none">
+                <img src="./img/Oborudovanie/RAd-300.png" alt="">
               <span class="bg-orio px-2 rounded-3 fs-4 fw-bolder">RAD-300 SE</span>
-              <p class="fs-5 text-center"> Радиальный Вентилятор Среднего Давления</p>
+              <p class="fs-5"> Радиальный Вентилятор Среднего Давления</p>
+              </a>
             </div>
             <div class="oborudovanie-item border mx-4 mx-lg-1 p-2">
-              <img src="./img/Oborudovanie/AXT.png" alt="">
+              <a href="./oborudovanie/" class="text-reset text-decoration-none">
+                <img src="./img/Oborudovanie/AXT.png" alt="">
               <span class="bg-orio px-2 rounded-3 fs-4 fw-bolder">RAD-300 SE</span>
-              <p class="fs-5 text-center">Осевой Вентилятор<br> Дымоудаления</p>
+              <p class="fs-5">Осевой Вентилятор<br> Дымоудаления</p>
+              </a>
             </div>
             <div class="oborudovanie-item border mx-4 mx-lg-1 p-2">
-              <img src="./img/Oborudovanie/RFS.png" alt="">
-              <span class="bg-orio px-2 rounded-3 fs-4 fw-bolder">RAD-300 SE</span>
-              <p class="fs-5 text-center">Крышный вентилятор с выбросом потока в стороны</p>
+              <a href="./oborudovanie/" class="text-reset text-decoration-none">
+                <img src="./img/Oborudovanie/RFS.png" alt="">
+                <span class="bg-orio px-2 rounded-3 fs-4 fw-bolder">RAD-300 SE</span>
+                <p class="fs-5">Крышный вентилятор с выбросом потока в стороны</p>
+              </a>
             </div>
             <div class="oborudovanie-item border mx-4 mx-lg-1 p-2">
-              <img src="./img/Oborudovanie/AXT.png" alt="">
-              <span class="bg-orio px-2 rounded-3 fs-4 fw-bolder">RAD-300 SE</span>
-              <p class="fs-5 text-center">Осевой Вентилятор<br> Дымоудаления</p>
+              <a href="./oborudovanie/" class="text-reset text-decoration-none">
+                 <img src="./img/Oborudovanie/AXT.png" alt="">
+                 <span class="bg-orio px-2 rounded-3 fs-4 fw-bolder">RAD-300 SE</span>
+                 <p class="fs-5">Осевой Вентилятор<br> Дымоудаления</p>
+              </a>
             </div>
 
           </div>
@@ -411,7 +410,7 @@
           <div class="carousel-item ">
             <div class="row">
               <div class="col-12 col-lg-3 text-center ps-lg-5">
-                <img class="avatar-otziv" src="./img/Akoi_Usmojon.png" alt="">
+                <img class="avatar-otziv rounded-circle" src="./img/Inaara_Ladha.jpg" alt="">
               </div>
               <div class="col-12 col-lg-9 px-5">
                 <p class="text-otziv fst-italic pe-lg-5 pt-3 ">
@@ -419,7 +418,7 @@
                   кондиционированием воздуха, а именно – проектирование, поставка оборудования и техническая поддержка,
                   монтажные и пусконаладочные работы,гарантийное и сервисное обслуживание.”
                 </p>
-                <h4>Укои Усмончон <span class="text-secondary fs-5 fw-normal">| ST company</span></h4>
+                <h4>Инаара Ладха<span class="text-secondary fs-5 fw-normal">| ST company</span></h4>
                 <div class=""><svg width="20" height="20" viewBox="0 0 45 43" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -475,8 +474,7 @@
               <span class="news-date fw-bold text-secondary fs-4"><span class="fs-1 color-orio fw-bold">9</span>
                 Мая 2022</span>
               <h3 class="my-4"><a href="#" class="news-title text-decoration-none text-reset ">Победа</a></h3>
-              <p class="pb-3 mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero quia nulla
-                asperiores iusto quis?</p>
+              <p class="pb-3 mb-3">День Побе́ды — праздник победы Красной армии и советского народа над нацистской Германией в Великой Отечественной войне 1941—1945 ...</p>
               <a href="#" class="read-more-btn text-decoration-none text-reset fs-4 fw-bold  ">Читать <span><svg
                     width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.5 1.5L7.5 8.5L1.5 15.5M7 1.5L13 8.5L7 15.5" stroke="#FFD400" stroke-width="2" />
@@ -490,8 +488,7 @@
               <span class="news-date fw-bold text-secondary fs-4"><span class="fs-1 color-orio fw-bold">12</span>
                 Апреля 2022</span>
               <h3 class="my-4"><a href="#" class="news-title text-decoration-none text-reset ">Космонавтики</a></h3>
-              <p class="pb-3 mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero quia nulla
-                asperiores iusto quis?</p>
+              <p class="pb-3 mb-3">День космонавтики — отмечаемая сначала в СССР, а после в России и других странах постсоветского пространства...</p>
               <a href="#" class="read-more-btn text-decoration-none text-reset fs-4 fw-bold ">Читать <span><svg
                     width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.5 1.5L7.5 8.5L1.5 15.5M7 1.5L13 8.5L7 15.5" stroke="#FFD400" stroke-width="2" />
@@ -505,8 +502,7 @@
               <span class="news-date fw-bold text-secondary fs-4"><span class="fs-1 color-orio fw-bold">21</span>
                 Марта 2022</span>
               <h3 class="my-4"><a href="#" class="news-title text-decoration-none text-reset ">Навруз</a></h3>
-              <p class="pb-3 mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero quia nulla
-                asperiores iusto quis?</p>
+              <p class="pb-3 mb-3">Навруз — праздник прихода весны по астрономическому солнечному календарю у иранских и тюркских народов...</p>
               <a href="#" class="read-more-btn text-decoration-none text-reset  fs-4 fw-bold ">Читать <span><svg
                     width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.5 1.5L7.5 8.5L1.5 15.5M7 1.5L13 8.5L7 15.5" stroke="#FFD400" stroke-width="2" />
@@ -546,12 +542,12 @@
             <p><span class="fs-5">«ОРИО ИНЖИРИНГ»</span> занимается поставкой, установкой и сервисом обслуживание систем
               вентиляции и кондиционирования.</p>
             <div class="footer-social-info inline">
-              <a href="http://www.telegram.org" class="facebook" title="Telegram"><img src="./img/core-img/telegram.png"
+              <a href="http://www.telegram.org" class="facebook" title="Telegram"><img src="../img/core-img/telegram.png"
                   alt=""></a>
-              <a href="http://www.facebook.com" class="facebook" title="Facebook"><img src="./img/core-img/facebook.png"
+              <a href="http://www.facebook.com" class="facebook" title="Facebook"><img src="../img/core-img/facebook.png"
                   alt=""></a>
               <a href="http://www.instagram.com" class="Instagram" title="Instagram"><img
-                  src="./img/core-img/instagram.png" alt=""></a>
+                  src="../img/core-img/instagram.png" alt=""></a>
             </div>
             <hr class="hr-footer">
           </div>

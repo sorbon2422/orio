@@ -193,8 +193,12 @@
  }
 
  .navbar {
-     background-color: rgba(255, 213, 0, 0.7);
+     background-color: hsla(50, 100%, 50%, 0.7);
      backdrop-filter: blur(10px);
+ }
+
+ .bg-navbar-top{
+     background-color: #FFD400 !important;
  }
 
  #header-logo-orio {

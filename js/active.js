@@ -118,7 +118,7 @@ if ($.fn.counterUp) {
 // ***********************************
 // Scroll
 //
-
+    let navbar= document.querySelector('.navbar');
     function slowScroll(id) {
       $('html, body').animate({
         scrollTop: $(id).offset().top
@@ -127,8 +127,8 @@ if ($.fn.counterUp) {
 
     $(document).on("scroll", function(){
       if($(window).scrollTop()===0)
-        $("nav").removeAttr("id","bg-header");
+        navbar.classList.add('bg-navbar-top');
       else
-        $("nav").attr("id","bg-header");
+        navbar.classList.remove('bg-navbar-top');
     });
-  
+    
